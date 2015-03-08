@@ -13,6 +13,13 @@
 		494BE3E71AA93E0E00363272 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494BE3E61AA93E0E00363272 /* Images.xcassets */; };
 		494BE3EA1AA93E0E00363272 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 494BE3E81AA93E0E00363272 /* LaunchScreen.xib */; };
 		494BE3F61AA93E0E00363272 /* a5TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE3F51AA93E0E00363272 /* a5TumblrTests.swift */; };
+		494BE4001AA9467A00363272 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE3FF1AA9467A00363272 /* HomeViewController.swift */; };
+		494BE4021AA94A4E00363272 /* AtHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE4011AA94A4E00363272 /* AtHomeViewController.swift */; };
+		494BE4041AA94A6F00363272 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE4031AA94A6F00363272 /* SearchViewController.swift */; };
+		494BE4081AA94AFE00363272 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE4071AA94AFE00363272 /* ComposeViewController.swift */; };
+		494BE40A1AA94B2B00363272 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE4091AA94B2B00363272 /* AccountViewController.swift */; };
+		494BE40C1AA94B5B00363272 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494BE40B1AA94B5B00363272 /* TrendingViewController.swift */; };
+		495FEE0F1AAC207A000FC76D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495FEE0E1AAC207A000FC76D /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		494BE3EF1AA93E0E00363272 /* a5TumblrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = a5TumblrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		494BE3F41AA93E0E00363272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		494BE3F51AA93E0E00363272 /* a5TumblrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = a5TumblrTests.swift; sourceTree = "<group>"; };
+		494BE3FF1AA9467A00363272 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		494BE4011AA94A4E00363272 /* AtHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtHomeViewController.swift; sourceTree = "<group>"; };
+		494BE4031AA94A6F00363272 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		494BE4071AA94AFE00363272 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		494BE4091AA94B2B00363272 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		494BE40B1AA94B5B00363272 /* TrendingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
+		495FEE0E1AAC207A000FC76D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +94,13 @@
 				494BE3DF1AA93E0E00363272 /* AppDelegate.swift */,
 				494BE3E11AA93E0E00363272 /* ViewController.swift */,
 				494BE3E31AA93E0E00363272 /* Main.storyboard */,
+				495FEE0E1AAC207A000FC76D /* LoginViewController.swift */,
+				494BE40B1AA94B5B00363272 /* TrendingViewController.swift */,
+				494BE4091AA94B2B00363272 /* AccountViewController.swift */,
+				494BE4071AA94AFE00363272 /* ComposeViewController.swift */,
+				494BE4031AA94A6F00363272 /* SearchViewController.swift */,
+				494BE4011AA94A4E00363272 /* AtHomeViewController.swift */,
+				494BE3FF1AA9467A00363272 /* HomeViewController.swift */,
 				494BE3E61AA93E0E00363272 /* Images.xcassets */,
 				494BE3E81AA93E0E00363272 /* LaunchScreen.xib */,
 				494BE3DD1AA93E0E00363272 /* Supporting Files */,
@@ -212,8 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				495FEE0F1AAC207A000FC76D /* LoginViewController.swift in Sources */,
+				494BE4041AA94A6F00363272 /* SearchViewController.swift in Sources */,
+				494BE40C1AA94B5B00363272 /* TrendingViewController.swift in Sources */,
 				494BE3E21AA93E0E00363272 /* ViewController.swift in Sources */,
+				494BE40A1AA94B2B00363272 /* AccountViewController.swift in Sources */,
 				494BE3E01AA93E0E00363272 /* AppDelegate.swift in Sources */,
+				494BE4081AA94AFE00363272 /* ComposeViewController.swift in Sources */,
+				494BE4021AA94A4E00363272 /* AtHomeViewController.swift in Sources */,
+				494BE4001AA9467A00363272 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +433,7 @@
 				494BE3FB1AA93E0E00363272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		494BE3FC1AA93E0E00363272 /* Build configuration list for PBXNativeTarget "a5TumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +442,7 @@
 				494BE3FE1AA93E0E00363272 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
