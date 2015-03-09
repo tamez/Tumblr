@@ -34,24 +34,12 @@ class HomeViewController: UIViewController {
     // Explore Bubble
     @IBOutlet weak var exploreBubble: UIImageView!
     
-    
     // Load  the View
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Access the Storyboard
         var storyboard = UIStoryboard(name:"Main", bundle: nil)
-        
-        
-        // Bounce the Explore Message
-        
-//        var exploreBubbleBounce = UIView.animateWithDuration(0.2, delay: 0.2, usingSpringWithDamping: 0.2, initialSpringVelocity: 10, options: UIViewAnimationOptions.Repeat | UIViewAnimationOptions.Autoreverse, animations: { () -> Void in
-//            var bubbleStart = self.exploreBubble.center.y
-//            
-//            
-//        }) { (Bool) -> Void in
-//            //
-//        }
         
       
         // Instantiate VCs: Start
