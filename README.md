@@ -1,7 +1,7 @@
 #Tumblr
 ##Tumblr iOS prototype at Codepath
 
-![Video Walkthrough](tumblrs.gif)
+![](Tumblrs.gif)
 
 **Hours: 8**
 
